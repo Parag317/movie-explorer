@@ -1,16 +1,58 @@
-# React + Vite
+# 🎬 Movie Explorer – React + TMDB API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Explorer is a React-based web app that lets users discover trending movies and search for specific titles using the TMDB API.  
+It includes a clean UI, responsive layout, and a movie details modal on click.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## React Compiler
+👉 https://your-vercel-link-here
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js (Vite)**
+- **JavaScript (ES6+)**
+- **CSS (component-based styling)**
+- **TMDB REST API**
+- **Git & GitHub**
+- **Vercel (deployment)**
+
+---
+
+## ✨ Features
+
+- 🔍 Search for movies by title (e.g., *Avengers*, *Batman*)
+- 📈 View weekly trending movies from TMDB
+- 🖼 Movie cards with poster, rating, and release date
+- 📖 Click any movie to see more details in a modal
+- 📱 Responsive grid layout for different screen sizes
+- 🔐 Secure API key management using environment variables (`.env`)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+  App.jsx
+  main.jsx
+  index.css
+  components/
+    SearchBar/
+      SearchBar.jsx
+      SearchBar.css
+    MovieList/
+      MovieList.jsx
+      MovieList.css
+    MovieCard/
+      MovieCard.jsx
+      MovieCard.css
+    MovieModal/
+      MovieModal.jsx
+      MovieModal.css
+  pages/
+    Home.jsx
+    Home.css
