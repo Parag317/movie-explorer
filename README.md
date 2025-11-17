@@ -1,39 +1,46 @@
 # 🎬 Movie Explorer – React + TMDB API
 
-Movie Explorer is a React-based web app that lets users discover trending movies and search for specific titles using the TMDB API.  
-It includes a clean UI, responsive layout, and a movie details modal on click.
+Movie Explorer is a modern web app to discover trending movies and search any movie title using the TMDB API.  
+Built with **React + Vite**, featuring **modal details**, search UI, and responsive movie grid.
 
 ---
 
 ## 🔗 Live Demo
 
-👉 https://your-vercel-link-here
+👉 https://movie-explorer-pjzihp514-parags-projects-a645e34e.vercel.app
+
+---
+
+## 📌 GitHub Repo
+
+👉 https://github.com/Parag317/movie-explorer
 
 ---
 
 ## 🚀 Tech Stack
 
-- **React.js (Vite)**
-- **JavaScript (ES6+)**
-- **CSS (component-based styling)**
-- **TMDB REST API**
-- **Git & GitHub**
-- **Vercel (deployment)**
+- React.js (Vite)
+- JavaScript (ES6+)
+- CSS (Component-Based Styling)
+- TMDB REST API
+- Git & GitHub
+- Vercel Deployment
 
 ---
 
 ## ✨ Features
 
-- 🔍 Search for movies by title (e.g., *Avengers*, *Batman*)
-- 📈 View weekly trending movies from TMDB
-- 🖼 Movie cards with poster, rating, and release date
-- 📖 Click any movie to see more details in a modal
-- 📱 Responsive grid layout for different screen sizes
-- 🔐 Secure API key management using environment variables (`.env`)
+- 🔍 Search movies by title (Avengers, Batman, etc.)
+- 📈 Trending weekly movies from TMDB
+- 🖼 Movie cards with title, rating & release date
+- 🎥 Click any movie to view details in a modal
+- ⚡ Fast build with Vite
+- 🔐 Secure API Key using `.env`
+- 📱 Fully responsive UI
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
 ```text
 src/
