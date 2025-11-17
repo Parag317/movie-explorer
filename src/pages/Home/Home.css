@@ -1,0 +1,16 @@
+.app__error {
+  margin-top: 1rem;
+  color: #fca5a5;
+}
+
+.app__empty {
+  margin-top: 1rem;
+  color: #9ca3af;
+}
+
+.app__footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.8rem;
+}
